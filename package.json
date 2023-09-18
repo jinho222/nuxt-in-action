@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxi typecheck"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@vue-macros/nuxt": "^1.7.12",
+    "nuxt": "^3.7.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.66.1"
+  }
+}
