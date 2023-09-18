@@ -50,7 +50,7 @@ const onFormSubmit = async (e: Event) => {
 <template>
   <div>
     <h2>my server</h2>
-    <div>{{ data.name }}</div>
+    <div>{{ data?.name }}</div>
     <form @submit="onFormSubmit">
       <input type="text" v-model="name" />
       <button type="submit">submit</button>

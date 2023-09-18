@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@0no-co/graphql.web@^1.0.1":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@0no-co/graphql.web/-/graphql.web-1.0.4.tgz#9606eb651955499525d068ce0ad8bea596286ce2"
+  integrity sha512-W3ezhHGfO0MS1PtGloaTpg0PbaT8aZSmmaerL7idtU5F7oCI+uu25k+MsMS31BVFlp4aMkHSrNRxiD72IlK8TA==
+
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.1.tgz#99e8e11851128b8702cd57c33684f1d0f260b630"
@@ -1243,6 +1248,22 @@
     "@unhead/shared" "1.3.9"
     hookable "^5.5.3"
     unhead "1.3.9"
+
+"@urql/core@^4.0.0", "@urql/core@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@urql/core/-/core-4.1.2.tgz#0080796f07f34a6878a29eb0ef319ceb2083b65b"
+  integrity sha512-K+JA5dxEjY7Jkt1hV8G2ShkuOscKS/r+8QnXDDxTkyMzZzviYqz5f/zxgSElObT/QSW17xCC1LFl+kwiyX5opg==
+  dependencies:
+    "@0no-co/graphql.web" "^1.0.1"
+    wonka "^6.3.2"
+
+"@urql/vue@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@urql/vue/-/vue-1.1.2.tgz#9456f1b4a16b6a4c77546d290c54cc4f04288ac9"
+  integrity sha512-ixfV0PTXcOl4KrZK24X+9B4rX9KSxqq1xhHZ0SOkAxgxMkomjJhtUl+9PuRL+LEzGWVr91OCEo68VPQ8uc5rBA==
+  dependencies:
+    "@urql/core" "^4.0.0"
+    wonka "^6.3.2"
 
 "@vercel/nft@^0.23.1":
   version "0.23.1"
@@ -3354,6 +3375,11 @@ graceful-fs@^4.1.10, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   version "4.2.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+
+graphql@^16.8.0:
+  version "16.8.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.0.tgz#374478b7f27b2dc6153c8f42c1b80157f79d79d4"
+  integrity sha512-0oKGaR+y3qcS5mCu1vb7KG+a89vjn06C7Ihq/dDl3jA+A8B3TKomvi3CiEcVLJQGalbu8F52LxkOym7U5sSfbg==
 
 gzip-size@^7.0.0:
   version "7.0.0"
@@ -6440,6 +6466,11 @@ widest-line@^4.0.1:
   integrity sha512-o0cyEG0e8GPzT4iGHphIOh0cJOV8fivsXxddQasHPHfoZf1ZexrfeA21w2NaEN1RHE+fXlfISmOE8R9N3u3Qig==
   dependencies:
     string-width "^5.0.1"
+
+wonka@^6.3.2:
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/wonka/-/wonka-6.3.4.tgz#76eb9316e3d67d7febf4945202b5bdb2db534594"
+  integrity sha512-CjpbqNtBGNAeyNS/9W6q3kSkKE52+FjIj7AkFlLr11s/VWGUu6a2CdYSdGxocIhIVjaW/zchesBQUKPVU69Cqg==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
   name wrap-ansi-cjs

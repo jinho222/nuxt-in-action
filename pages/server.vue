@@ -6,9 +6,9 @@ const num = ref(1);
 
 <template>
   <div>
-    <div>{{ data.id }}</div>
-    <div>{{ data.name }}</div>
-    <button @click="execute">fetch again</button>
+    <div>{{ data?.id }}</div>
+    <div>{{ data?.name }}</div>
+    <button @click="() => execute()">fetch again</button>
     <button @click="num++">num++</button>
     <server-view :no="1" />
     <server-view :no="2" />
