@@ -12,10 +12,6 @@ const { fragment } = defineProps<{
 }>();
 
 const language = useFragment(LandingChildFragment, fragment);
-
-onMounted(() => {
-  console.log(fragment, language);
-});
 </script>
 
 <template>
