@@ -7,7 +7,7 @@ import {
 } from "@urql/vue";
 
 const client = createClient({
-  url: "https://anilist.co/graphql",
+  url: "https://countries.trevorblades.com/",
   exchanges: [cacheExchange, fetchExchange],
 });
 
