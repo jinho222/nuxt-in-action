@@ -3010,6 +3010,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@urql/devtools@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@urql/devtools@npm:2.0.3"
+  dependencies:
+    wonka: ">= 4.0.9"
+  peerDependencies:
+    "@urql/core": ">= 1.14.0"
+    graphql: ">= 0.11.0"
+  checksum: 9b4a46dd0b6cca5296667bc0e658212c3101cd1c0d01dcc0be736e5b5159beaf6aa982115dd7546ff5425ed91e1688132a82a8f101bf8ad560245b97bb533f59
+  languageName: node
+  linkType: hard
+
 "@urql/vue@npm:1.1.2":
   version: 1.1.2
   resolution: "@urql/vue@npm:1.1.2"
@@ -8444,6 +8456,7 @@ __metadata:
     "@graphql-codegen/client-preset": 4.1.0
     "@nuxt/devtools": 0.8.3
     "@urql/core": 4.1.2
+    "@urql/devtools": ^2.0.3
     "@urql/vue": 1.1.2
     "@vue-macros/nuxt": 1.7.12
     concurrently: 8.2.1
@@ -8451,6 +8464,7 @@ __metadata:
     nuxt: 3.7.0
     prettier: 3.0.3
     sass: 1.66.1
+    typescript: 5.2.2
   languageName: unknown
   linkType: soft
 
@@ -10661,6 +10675,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:5.2.2":
+  version: 5.2.2
+  resolution: "typescript@npm:5.2.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 7912821dac4d962d315c36800fe387cdc0a6298dba7ec171b350b4a6e988b51d7b8f051317786db1094bd7431d526b648aba7da8236607febb26cf5b871d2d3c
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@5.2.2#~builtin<compat/typescript>":
+  version: 5.2.2
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=493e53"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  languageName: node
+  linkType: hard
+
 "ua-parser-js@npm:^1.0.35":
   version: 1.0.36
   resolution: "ua-parser-js@npm:1.0.36"
@@ -11518,7 +11552,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wonka@npm:^6.3.2":
+"wonka@npm:>= 4.0.9, wonka@npm:^6.3.2":
   version: 6.3.4
   resolution: "wonka@npm:6.3.4"
   checksum: 6bb57955cb2982fb469a7824484e6854b436f89a7f10b6a981348789d88fbc944665771adc4cc404f62416417eb47ab2b8657d898e5301ccd4a53eaac6a10508
