@@ -1,63 +1,7 @@
-# Nuxt 3 Minimal Starter
+# My Nuxt App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## GraphQL Reference
+- https://medium.com/svelte-seoul/urql-svelte-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-relay-cursor-pagination-%EA%B5%AC%ED%98%84-%EA%B7%B8%EB%A6%AC%EA%B3%A0-cache-handling-feat-typescript-f02018f46dcc 
+- https://github.com/jet2jet/urql-local-resolver-test
+- https://github.com/dotansimha/graphql-code-generator/issues/4137 
+- https://stackoverflow.com/questions/37397886/get-graphql-whole-schema-query

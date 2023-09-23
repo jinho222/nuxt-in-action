@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>index page</h1>
-  <LandingView />
+  <landing-view />
 </template>
+
+<style scoped lang="scss"></style>

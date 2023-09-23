@@ -1,17 +1,15 @@
 <script setup lang="ts"></script>
 
 <template>
-  <GraphqlProvider>
-    <div>
-      Hello, Nuxt!
-      <div class="box">
-        <NuxtLink to="/">landing</NuxtLink>
-        <NuxtLink to="/about">about</NuxtLink>
-        <NuxtLink to="/server">server</NuxtLink>
-      </div>
-      <NuxtPage />
+  <div>
+    Hello, Nuxt!
+    <div class="box">
+      <NuxtLink to="/">landing</NuxtLink>
+      <NuxtLink to="/about">about</NuxtLink>
+      <NuxtLink to="/server">server</NuxtLink>
     </div>
-  </GraphqlProvider>
+    <NuxtPage />
+  </div>
 </template>
 
 <style lang="scss" scoped>

@@ -1,0 +1,9 @@
+directive @client on FIELD
+
+type Modal {
+    open: Boolean
+}
+
+extend type Query {
+    modal: Modal
+}
